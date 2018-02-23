@@ -27,6 +27,7 @@ html,body{
 	height: 126px;
 	width: 100%;
 	position: fixed;
+	z-index: 9;
 	left: 0;
 	top: 0;
 }
@@ -235,6 +236,7 @@ html,body{
 .car-config-detail {
 	float: left;
 	position: absolute;
+	z-index: 5;
 	height:510px;
 	width: 943px;
 	left: 0;
