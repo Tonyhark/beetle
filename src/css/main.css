@@ -1,0 +1,280 @@
+@font-face {
+	font-family: 'hyqihei60j';
+	src: url('hyqihei-60j-webfont.eot');
+	src: url('hyqihei-60j-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('hyqihei-60j-webfont.woff2') format('woff2'),
+			 url('hyqihei-60j-webfont.woff') format('woff'),
+			 url('hyqihei-60j-webfont.ttf') format('truetype'),
+			 url('hyqihei-60j-webfont.svg#hyqihei60j') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+html,body{
+  font-family: "microsoft yahei";
+}
+
+.container {
+	width: 100%;
+	min-width: 1280px;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 126px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.header-inner {
+	width: 100%;
+	min-width: 1280px;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.logo-left {
+	width: 141px;
+	height: 38px;
+	float: left;
+	margin-top: 88px;
+	margin-left: 84px;
+	background: url(../img/logo-left.png) center no-repeat;
+}
+
+.logo-right {
+	width: 88px;
+	height: 91px;
+	float: right;
+	margin-top: 35px;
+	margin-right: 56px;
+	background: url(../img/logo-right.png) center no-repeat;
+}
+
+.first-screen {
+	width: 100%;
+	background: url(../img/first-screen.jpg) center bottom no-repeat;
+}
+
+.first-screen-holder {
+	width: 100%;
+	padding-bottom: 56.25%;
+}
+
+.second-screen {
+	height: 1080px;
+	width: 100%;
+	background: url(../img/second-screen.jpg) center no-repeat;
+	position: relative;
+}
+
+.second-screen-desc {
+	color: #fff;
+	position: absolute;
+	top: 191px;
+	left: 50%;
+	margin-left: 45px;
+	font-family: 'hyqihei60j';
+}
+
+.second-screen-desc {
+	color: #fff;
+	position: absolute;
+	top: 191px;
+	left: 50%;
+	margin-left: 45px;
+	font-family: 'hyqihei60j';
+}
+
+.second-screen-title {
+	font-size: 24px;
+	/* font-weight: bold; */
+}
+.second-screen-main {
+	font-size: 20px;
+}
+.second-screen-sub {
+	margin-top: 14px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.third-screen {
+	height: 900px;
+	width: 100%;
+	background: url(../img/third-screen.jpg) center no-repeat;
+	position: relative;
+}
+
+.car-desc {
+	position: absolute;
+	width: 1032px;
+	height: 510px;
+	top: 59px;
+	left: 50%;
+	margin-left: -510px;
+}
+
+.car-desc-left {
+	float: left;
+	overflow: hidden;
+	position: relative;
+	height:510px;
+	width: 943px;
+}
+
+.car-desc-right {
+	float: right;
+}
+
+
+.feature-text {
+	font-family: 'hyqihei60j';
+	color: #fff;
+	background-color: #000;
+}
+
+.feature-one {
+	position: absolute;
+	top: 0;
+	left: -475px;
+}
+
+.feature-one-text {
+	height:510px;
+	width: 475px;
+	float: left;
+}
+
+.f-one-title {
+	font-size: 32px;
+	margin-top: 80px;
+	margin-left: 28px;
+}
+.f-one-main {
+	font-size: 20px;
+	margin-top: 14px;
+	margin-left: 28px;
+}
+.f-one-sub {
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 42px;
+	margin-left: 28px;
+}
+
+.feature-one-pic {
+	float: right;
+	width: 468px;
+}
+
+.feature-two {
+	position: absolute;
+	left: 468px;
+	top: 0;
+	height: 255px;
+	width: 475px;
+}
+
+.feature-two-text {
+	height: 255px;
+	width: 475px;
+	position: absolute;
+	top: 515px;
+	left: 0;
+}
+
+.f-two-title, .f-three-title{
+	font-size: 32px;
+	padding-top: 25px;
+	margin-left: 38px;
+}
+.f-two-main, .f-three-main {
+	font-size: 20px;
+	margin-top: 14px;
+	margin-left: 38px;
+}
+.f-two-sub, .f-three-sub {
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 32px;
+	margin-left: 38px;
+}
+
+.feature-two-pic, .feature-three-pic {
+	height: 255px;
+}
+
+.feature-three {
+	position: absolute;
+	left: 468px;
+	top: 255px;
+	height: 255px;
+	width: 475px;
+}
+
+.feature-three-text {
+	height: 255px;
+	width: 475px;
+}
+
+.car-config-detail {
+	float: left;
+	position: absolute;
+	height:510px;
+	width: 943px;
+	left: 0;
+	top: 0;
+	background: url(../img/car-config-detail-bg.png) 0 0 repeat;
+	display: none;
+}
+
+.c-c-d-holder {
+	height: 450px;
+	overflow-y: auto;
+	margin-top: 30px;
+	float: left;
+	padding-right: 30px;
+}
+
+.config-table thead td {
+	color: #a31f28;
+	font-family: 'hyqihei40j';
+	font-size: 20px;
+	padding-bottom: 8px;
+}
+
+.config-table tbody td {
+	color: #fff;
+	font-family: 'hyqihei40j';
+	height: 23px;
+	font-size: 14px;
+}
+
+.table-left {
+	float: left;
+	margin-left: 48px;
+	width: 445px;
+}
+
+.table-right {
+	float: left;
+	margin-left: 48px;
+	width: 345px;
+}
+.table-one {
+	margin-bottom: 16px;
+}
+
+.table-comment {
+	color: #fff;
+	font-size: 12px;
+	position: absolute;
+	bottom: -29px; 
+	right: 116px;
+}
