@@ -63,7 +63,11 @@ html,body{
 
 .first-screen-holder {
 	width: 100%;
-	padding-bottom: 56.25%;
+	padding-bottom: 30.208%;
+}
+
+.first-screen-holder-top {
+	height: 500px;
 }
 
 .second-screen {
@@ -208,6 +212,11 @@ html,body{
 
 .feature-two-pic, .feature-three-pic {
 	height: 255px;
+}
+
+.feature-two-pic img, .feature-three-pic img {
+	height: 255px;
+	display: block;
 }
 
 .feature-three {
