@@ -289,3 +289,150 @@ html,body{
 	bottom: -29px; 
 	right: 116px;
 }
+
+/* 底部 */
+.footer {
+	position: fixed;
+	bottom: 0;
+	z-index: 9;
+	height: 107px;
+	width: 100%;
+	min-width: 1280px;
+	max-width: 1920px;
+	background-color: rgba(97, 18, 24, 0.8);
+}
+
+.footer-inner {
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.navigator {
+	width: 271px;
+	height: 217px;
+	background-color: yellowgreen;
+	margin-top: -110px;
+	float: left;
+}
+
+.trial-form {
+	width: 884px;
+	float: right;
+}
+.trial-form-top	{
+	margin-top: 14px;
+}
+.trial-text {
+	width: 138px;
+	height: 31px;
+	border: 1px solid #fff;
+	background-color: #bb9fa5;
+	color: #a62029;
+	font-size: 14px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+}
+
+.trial-text::-webkit-input-placeholder{ /*WebKit browsers*/
+
+	color: #a62029;
+	
+	}
+	
+	.trial-text::-moz-input-placeholder{ /*Mozilla Firefox*/
+	
+	color: #a62029;
+	
+	}
+	
+	.trial-text::-ms-input-placeholder{ /*Internet Explorer*/ 
+	
+	color: #a62029;
+	
+	}
+
+.trial-select {
+	width: 138px;
+	height: 31px;
+	border: 1px solid #fff;
+	background-color: #bb9fa5;
+	color: #a62029;
+	font-size: 14px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+}
+
+.trial-select-long {
+	width: 252px;
+	height: 31px;
+	border: 1px solid #fff;
+	background-color: #bb9fa5;
+	color: #a62029;
+	font-size: 14px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.trial-form-bottom {
+	margin-top: 18px;
+}
+
+.trial-checkbox {
+	width: 18px;
+	height: 18px;
+	background-color: #d6c8cb;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	float: left;
+	margin-top: 2px;
+}
+
+.trial-label {
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+}
+.trial-label-cntr {
+	margin-left: 30px;
+}
+.trial-terms-link {
+	font-size: 14px;
+	color: #9e1f27;
+	text-decoration: underline;
+}
+
+.trial-submit {
+	width: 128px;
+	height: 31px;
+	border:1px solid #a11425;
+	color: #fff;
+	font-size: 14px;
+	background-color: #3f0c0f;
+}
+
+.t-f-b-item {
+	float: left;
+}
+.t-f-b-item-first {
+	margin-right: 42px;
+}
+.t-f-b-item-second {
+	margin-right: 37px;
+}
+.t-f-b-item-third {
+	margin-right: 29px;
+}
+
+.icon-weibo, .icon-wechat {
+	width: 38px;
+	height: 38px;
+	float: left;
+	margin-top: -4px;
+}
+

@@ -64,6 +64,10 @@ $(function () {
 		$carConfigDetail.toggle()
 	})
 
+	// 底部表单
+	$('#J_terms').click(function () {
+		alert(1);
+	})
 })
 
 
