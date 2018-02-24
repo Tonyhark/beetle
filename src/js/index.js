@@ -98,5 +98,22 @@ $(function () {
 	$('#J_share_code_close').click(function () {
 		$wechatShare.hide()
 	})
+
+	// 导航
+	$('.navi-link').click(function () {
+		var $this = $(this)
+		if ($this.hasClass('cur')) return
+		var index = $this.index()
+		var posY = 0
+		if (index === 0) {
+			posY = 0
+		} else if (index === 1) {
+			posY = $('#J_second_screen').offset().top
+		} else if (index === 2) {
+			posY = $('#J_third_screen').offset().top - 55
+		}
+		window.scrollTo(0, posY)
+		$this.addClass('cur').siblings().removeClass('cur')
+	})
 })
 
