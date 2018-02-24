@@ -20,7 +20,7 @@
 
 html,
 body {
-  font-family: "microsoft yahei";
+  font-family: "hyqihei60j";
 }
 
 .container {
@@ -110,12 +110,14 @@ body {
 
 .second-screen-main {
   font-size: 20px;
+	font-family: 'hyqihei40j'
 }
 
 .second-screen-sub {
   margin-top: 14px;
   font-size: 14px;
-  line-height: 22px;
+	line-height: 22px;
+	font-family: 'hyqihei40j'
 }
 
 .third-screen {
@@ -147,7 +149,7 @@ body {
 }
 
 .feature-text {
-  font-family: 'hyqihei60j';
+	font-family: 'hyqihei40j';
   color: #fff;
   background-color: #000;
 }
@@ -407,7 +409,8 @@ body {
 .trial-label {
   color: #fff;
   font-size: 14px;
-  line-height: 18px;
+	line-height: 18px;
+	font-family: 'hyqihei40j';
 }
 
 .trial-label-cntr {
@@ -418,7 +421,8 @@ body {
   font-size: 14px;
   color: #9e1f27;
   text-decoration: underline;
-  cursor: pointer;
+	cursor: pointer;
+	font-family: 'hyqihei40j';
 }
 
 .trial-submit {
