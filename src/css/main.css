@@ -307,14 +307,6 @@ html,body{
 	margin: 0 auto;
 }
 
-.navigator {
-	width: 271px;
-	height: 217px;
-	background-color: yellowgreen;
-	margin-top: -110px;
-	float: left;
-}
-
 .trial-form {
 	width: 884px;
 	float: right;
@@ -436,3 +428,62 @@ html,body{
 	margin-top: -4px;
 }
 
+/* 导航 */
+.navigator {
+	width: 271px;
+	height: 220px;
+	margin-top: -110px;
+	float: left;
+	position: relative;
+}
+
+.navi-round {
+	width: 271px;
+	height: 187px;
+	background: url(../img/navi-round.png) 0 33px  no-repeat;
+	padding-top: 33px;
+}
+
+.navi-link {
+	position: absolute;
+	display: block;
+	background-image: url(../img/navi.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.navi-link-first {
+	width: 57px;
+	height: 50px;
+	background-position: 0 -25px;
+	left: 10px;
+	top: 25px;
+}
+
+.navi-link-second {
+	width: 90px;
+	height: 36px;
+	background-position: -64px 0;
+	left: 74px;
+	top: 0;
+}
+
+.navi-link-third {
+	width: 70px;
+	height: 58px;
+	background-position: -175px -17px;
+	left: 185px;
+	top: 17px;
+}
+
+.navi-link-first.cur {
+	background-position: 0 -100px;
+}
+
+.navi-link-second.cur {
+	background-position: -64px -75px;
+}
+
+.navi-link-third.cur {
+	background-position: -175px -92px;
+}
