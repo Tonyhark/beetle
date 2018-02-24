@@ -2,8 +2,20 @@
   font-family: 'hyqihei60j';
   src: url('hyqihei-60j-webfont.eot');
   src: url('hyqihei-60j-webfont.eot?#iefix') format('embedded-opentype'), url('hyqihei-60j-webfont.woff2') format('woff2'), url('hyqihei-60j-webfont.woff') format('woff'), url('hyqihei-60j-webfont.ttf') format('truetype'), url('hyqihei-60j-webfont.svg#hyqihei60j') format('svg');
-  font-weight: normal;
+  font-weight: bolder;
   font-style: normal;
+}
+@font-face {
+	font-family: 'hyqihei40j';
+	/* src: url('hyqihei-40j-webfont.eot'); */
+	src: 
+	/* url('hyqihei-40j-webfont.eot?#iefix') format('embedded-opentype'), */
+			 /* url('hyqihei-40j-webfont.woff2') format('woff2'), */
+			 /* url('hyqihei-40j-webfont.woff') format('woff'), */
+			 url('hyqihei-40j-webfont.ttf') format('truetype');
+			 /* url('hyqihei-40j-webfont.svg#hyqihei40j') format('svg'); */
+	font-weight: lighter;
+	font-style: normal;
 }
 
 html,
@@ -247,7 +259,8 @@ body {
   left: 0;
   top: 0;
   background: url(../img/car-config-detail-bg.png) 0 0 repeat;
-  display: none;
+	display: none;
+	font-family: 'hyqihei40j';
 }
 
 .c-c-d-holder {
