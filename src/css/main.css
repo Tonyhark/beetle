@@ -263,7 +263,8 @@ body {
   overflow-y: auto;
   margin-top: 30px;
   float: left;
-  padding-right: 30px;
+	padding-right: 10px;
+	width: 910px;
 }
 
 .config-table thead td {
