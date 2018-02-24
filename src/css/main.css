@@ -7,13 +7,7 @@
 }
 @font-face {
 	font-family: 'hyqihei40j';
-	/* src: url('hyqihei-40j-webfont.eot'); */
-	src: 
-	/* url('hyqihei-40j-webfont.eot?#iefix') format('embedded-opentype'), */
-			 /* url('hyqihei-40j-webfont.woff2') format('woff2'), */
-			 /* url('hyqihei-40j-webfont.woff') format('woff'), */
-			 url('hyqihei-40j-webfont.ttf') format('truetype');
-			 /* url('hyqihei-40j-webfont.svg#hyqihei40j') format('svg'); */
+	src: url('hyqihei-40j-webfont.ttf') format('truetype');
 	font-weight: lighter;
 	font-style: normal;
 }
