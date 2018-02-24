@@ -60,7 +60,7 @@ $(function () {
 		});
 	})
 
-	$carConfig.click(function() {
+	$carConfig.click(function () {
 		$carConfigDetail.toggle()
 	})
 
@@ -69,7 +69,7 @@ $(function () {
 	var $popTerms = $('#J_pop_terms') //条款弹框
 	var $popSubmitSuccess = $('#J_pop_sumbit_suc') //试驾提交成功
 
-	$('#J_trial_submit').click(function() {
+	$('#J_trial_submit').click(function () {
 		$mask.show()
 		$popSubmitSuccess.show()
 	})
@@ -78,16 +78,25 @@ $(function () {
 		$popTerms.show()
 	})
 
-	$('#J_pop_sumbit_suc_close').click(function() {
+	$('#J_pop_sumbit_suc_close').click(function () {
 		$popSubmitSuccess.hide()
 		$mask.hide()
 	})
 
-	$('#J_pop_terms_close').click(function() {
+	$('#J_pop_terms_close').click(function () {
 		$popTerms.hide()
 		$mask.hide()
 	})
 
-})
 
+	// 分享弹框
+	var $wechatShare = $('#J_wechat_share')
+	$('#J_icon_wechat').click(function () {
+		console.log(111)
+		$wechatShare.toggle()
+	})
+	$('#J_share_code_close').click(function () {
+		$wechatShare.hide()
+	})
+})
 
