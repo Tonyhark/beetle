@@ -297,12 +297,14 @@
 		<!-- 底部 -->
 		<div class="footer">
 			<div class="footer-inner">
+				<!-- 导航 -->
 				<div class="navigator">
 					<a class="navi-link navi-link-first cur"></a>
 					<a class="navi-link  navi-link-second"></a>
 					<a class="navi-link navi-link-third"></a>
-					<div class="navi-round"></div>		
+					<div class="navi-round"></div>
 				</div>
+				<!-- 表单开始 -->
 				<div class="trial-form">
 					<div class="trial-form-top clearfix">
 						<input type="text" class="trial-text" placeholder="真实姓名">
@@ -326,29 +328,70 @@
 					<div class="trial-form-bottom clearfix">
 						<div class="t-f-b-item t-f-b-item-first">
 							<input id="info" class="trial-checkbox" type="checkbox" name="info" checked>
-							<div class="trial-label-cntr"><label class="trial-label" for="info">我希望大众汽车（中国）销售有限公司在将来提供 <br>其他的市场活动信息
-									</label>
+							<div class="trial-label-cntr">
+								<label class="trial-label" for="info">我希望大众汽车（中国）销售有限公司在将来提供
+									<br>其他的市场活动信息
+								</label>
 							</div>
 						</div>
 						<div class="t-f-b-item t-f-b-item-second">
 							<input id="terms" class="trial-checkbox" type="checkbox" name="terms" checked>
-							<div class="trial-label-cntr"><label for="terms" class="trial-label">我已阅读并接受</label><span id="J_terms" class="trial-terms-link">数据保护条款</span>
+							<div class="trial-label-cntr">
+								<label for="terms" class="trial-label">我已阅读并接受</label>
+								<span id="J_terms" class="trial-terms-link">数据保护条款</span>
 							</div>
 						</div>
 						<div class="t-f-b-item t-f-b-item-third">
-							<input type="submit" value="确认提交" class="trial-submit">
+							<input id="J_trial_submit" type="submit" value="确认提交" class="trial-submit">
 						</div>
 						<div class="t-f-b-item">
 							<div class="icon-weibo" style="margin-right: 14px;">
 								<img src="./img/icon-weibo.png" alt="">
-							</div>	
+							</div>
 							<div class="icon-wechat">
 								<img src="./img/icon-wechat.png" alt="">
-							</div>	
+							</div>
 						</div>
 					</div>
 				</div>
+				<!-- 表单结束 -->
 			</div>
+		</div>
+		<!-- 半透明黑色遮罩 -->
+		<div id="J_pop_mask" class="pop-mask"></div>
+		<!-- 条款弹框 -->
+		<div id="J_pop_terms" class="pop-terms">
+			<div class="pop-terms-cntr">
+				<div class="pop-terms-tit">
+					数据保护
+				</div>
+				<div class="pop-terms-p">
+					1、大众进口汽车销售有限公司保证所有个人信息数据都将按照隐私保护规定进行处理。
+					<br> 2、用户通过本网站提交的任何个人信息，将用于本次试驾活动的申请和接收来自大众进口汽车提供的产品、服务、活动等信息。我们会通过电子邮件、电话或邮寄的方式向您提供相关信息，或联合其他经过严格筛选的经销商向您提供您所感兴趣的资讯，或邀请您参加我们的市场活动和客户调查。
+					<br> 3、以上个人信息数据可由大众进口汽车销售有限公司及其授权经销商共同持有，并可由大众进口汽车销售有限公司及其授权经销商用于其正常的商业活动，包括但不限于根据本人所提供的信息以及与本人联系。
+					<br> 4、除上述情况，在得到您的许可的情况下，以上信息数据将被保留和进行相应处理，除此之外不会向第三方披露。
+					<br> 5、在不限制您依法享有的权利的前提下，大众进口汽车销售有限公司保留随时修改或撤销本保密政策部分或全部的权利以及最终解释权。
+				</div>
+			</div>
+			<div class="pop-ele-car"></div>
+			<div class="pop-ele-light"></div>
+			<div id="J_pop_terms_close" class="pop-close"></div>
+		</div>
+		<!-- 试驾提交成功弹框 -->
+		<div id="J_pop_sumbit_suc" class="pop-submit-success">
+			<div class="pop-submit-success-cntr">
+				<div class="pop--submit-success-tit">
+					提交成功
+				</div>
+				<div class="pop-submit-success-p">
+					稍后大众进口汽车客户专线
+					<br> 010-59634511
+					<br> 将致电与您核实信息
+				</div>
+			</div>
+			<div class="pop-ele-car"></div>
+			<div class="pop-ele-light"></div>
+			<div id="J_pop_sumbit_suc_close" class="pop-close"></div>
 		</div>
 </body>
 

@@ -65,9 +65,29 @@ $(function () {
 	})
 
 	// 底部表单
-	$('#J_terms').click(function () {
-		alert(1);
+	var $mask = $('#J_pop_mask') // 黑色半透明蒙层
+	var $popTerms = $('#J_pop_terms') //条款弹框
+	var $popSubmitSuccess = $('#J_pop_sumbit_suc') //试驾提交成功
+
+	$('#J_trial_submit').click(function() {
+		$mask.show()
+		$popSubmitSuccess.show()
 	})
+	$('#J_terms').click(function () {
+		$mask.show()
+		$popTerms.show()
+	})
+
+	$('#J_pop_sumbit_suc_close').click(function() {
+		$popSubmitSuccess.hide()
+		$mask.hide()
+	})
+
+	$('#J_pop_terms_close').click(function() {
+		$popTerms.hide()
+		$mask.hide()
+	})
+
 })
 
 
