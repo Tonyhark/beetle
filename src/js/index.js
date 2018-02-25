@@ -100,9 +100,15 @@ $(function () {
 	})
 
 	// 导航
-	$('.navi-link').click(function () {
+	var $naviLinks = $('.navi-link')
+	var activeClsName = 'cur'
+	var canRemoveCur = true
+	var t
+	$naviLinks.click(function () {
 		var $this = $(this)
-		if ($this.hasClass('cur')) return
+		clearTimeout(t)
+		canRemoveCur = false
+		if ($this.hasClass(activeClsName)) return
 		var index = $this.index()
 		var posY = 0
 		if (index === 0) {
@@ -112,8 +118,37 @@ $(function () {
 		} else if (index === 2) {
 			posY = $('#J_third_screen').offset().top - 55
 		}
-		window.scrollTo(0, posY)
-		$this.addClass('cur').siblings().removeClass('cur')
+		t = window.scrollTo(0, posY)
+		setTimeout(() => {
+			canRemoveCur = true
+		}, 2000);
+		$this.addClass(activeClsName).siblings().removeClass(activeClsName)
 	})
+	$(window).scroll(throttle(function() {
+		console.log('scorll')
+		if(!canRemoveCur) return
+		$naviLinks.removeClass(activeClsName)
+	}, 1500))
 })
 
+function throttle (fn, threshhold, scope) {
+  threshhold || (threshhold = 250);
+  var last,
+    deferTimer;
+  return function () {
+    var context = scope || this;
+    var now = +new Date,
+      args = arguments;
+    if (last && now < last + threshhold) {
+      // hold on to it
+      clearTimeout(deferTimer);
+      deferTimer = setTimeout(function () {
+        last = now;
+        fn.apply(context, args);
+      }, threshhold);
+    } else {
+      last = now;
+      fn.apply(context, args);
+    }
+  };
+}

@@ -316,7 +316,16 @@ body {
   width: 100%;
   min-width: 1280px;
   max-width: 1920px;
-  background-color: rgba(97, 18, 24, 0.8);
+	background-color: rgba(97, 18, 24, 0.8);
+	transform: translateY(53px);
+	-webkit-transform: translateY(53px);
+	transition: transform 0.3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.3s;
+}
+
+.footer:hover {
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
 }
 
 .footer-inner {
