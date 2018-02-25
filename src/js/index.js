@@ -118,8 +118,8 @@ $(function () {
 		} else if (index === 2) {
 			posY = $('#J_third_screen').offset().top - 55
 		}
-		t = window.scrollTo(0, posY)
-		setTimeout(() => {
+		window.scrollTo(0, posY)
+		t = setTimeout(() => {
 			canRemoveCur = true
 		}, 2000);
 		$this.addClass(activeClsName).siblings().removeClass(activeClsName)
